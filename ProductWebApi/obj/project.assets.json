@@ -4548,11 +4548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\CRUDWebAPIMVC\\ProductWebApi\\ProductWebApi.csproj",
+      "projectUniqueName": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\ProductWebApi.csproj",
       "projectName": "ProductWebApi",
-      "projectPath": "E:\\Projects\\CRUDWebAPIMVC\\ProductWebApi\\ProductWebApi.csproj",
+      "projectPath": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\ProductWebApi.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\CRUDWebAPIMVC\\ProductWebApi\\obj\\",
+      "outputPath": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

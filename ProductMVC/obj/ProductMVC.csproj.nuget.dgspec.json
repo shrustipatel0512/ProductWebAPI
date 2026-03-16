@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\CRUDWebAPIMVC\\ProductMVC\\ProductMVC.csproj": {}
+    "E:\\ProductWebAPI\\ProductWebAPI\\ProductMVC\\ProductMVC.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\CRUDWebAPIMVC\\ProductMVC\\ProductMVC.csproj": {
+    "E:\\ProductWebAPI\\ProductWebAPI\\ProductMVC\\ProductMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\CRUDWebAPIMVC\\ProductMVC\\ProductMVC.csproj",
+        "projectUniqueName": "E:\\ProductWebAPI\\ProductWebAPI\\ProductMVC\\ProductMVC.csproj",
         "projectName": "ProductMVC",
-        "projectPath": "E:\\Projects\\CRUDWebAPIMVC\\ProductMVC\\ProductMVC.csproj",
+        "projectPath": "E:\\ProductWebAPI\\ProductWebAPI\\ProductMVC\\ProductMVC.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\CRUDWebAPIMVC\\ProductMVC\\obj\\",
+        "outputPath": "E:\\ProductWebAPI\\ProductWebAPI\\ProductMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
