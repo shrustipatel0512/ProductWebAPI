@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "E:\\ProductWebAPI\\ProductWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\data\\produtwebapidbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\data\\produtwebapidbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|e:\\productwebapi\\productwebapi\\productwebapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7651DE0C-99D9-4908-8BBD-78268B0E6C63}|ProductWebApi\\ProductWebApi.csproj|solutionrelative:productwebapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,80 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductWebApi\\Models\\Product.cs",
-              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Models\\Product.cs",
-              "RelativeToolTip": "ProductWebApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T06:30:08.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "ProductWebApi\\Program.cs",
-              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Program.cs",
-              "RelativeToolTip": "ProductWebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:51:56.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProdutWebApiDbContex.cs",
+              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Data\\ProdutWebApiDbContex.cs",
+              "RelativeDocumentMoniker": "ProductWebApi\\Data\\ProdutWebApiDbContex.cs",
+              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Data\\ProdutWebApiDbContex.cs",
+              "RelativeToolTip": "ProductWebApi\\Data\\ProdutWebApiDbContex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:34:57.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductWebApi\\Repositories\\IProductRepository.cs",
+              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "ProductWebApi\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:17:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Dtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "ProductWebApi\\Dtos\\CreateProductDto.cs",
+              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Dtos\\CreateProductDto.cs",
+              "RelativeToolTip": "ProductWebApi\\Dtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:15:45.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductCategoryController.cs",
               "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Controllers\\ProductCategoryController.cs",
               "RelativeDocumentMoniker": "ProductWebApi\\Controllers\\ProductCategoryController.cs",
               "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Controllers\\ProductCategoryController.cs",
               "RelativeToolTip": "ProductWebApi\\Controllers\\ProductCategoryController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAA7wHEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T05:42:47.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductCategoryRepository.cs",
-              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\ProductCategoryRepository.cs",
-              "RelativeDocumentMoniker": "ProductWebApi\\Repositories\\ProductCategoryRepository.cs",
-              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\ProductCategoryRepository.cs",
-              "RelativeToolTip": "ProductWebApi\\Repositories\\ProductCategoryRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:37:19.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductWebApi\\Repositories\\IProductRepository.cs",
-              "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "ProductWebApi\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:36:53.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ProductWebApi\\Repositories\\ProductRepository.cs",
               "ToolTip": "E:\\ProductWebAPI\\ProductWebAPI\\ProductWebApi\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "ProductWebApi\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:36:47.303Z"
+              "WhenOpened": "2026-03-16T12:36:47.303Z",
+              "EditorCaption": ""
             }
           ]
         }

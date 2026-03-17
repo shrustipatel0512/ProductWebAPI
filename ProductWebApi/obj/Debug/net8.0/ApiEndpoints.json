@@ -97,8 +97,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "ProductWebApi.Models.Product",
+        "Name": "input",
+        "Type": "ProductWebApi.Dtos.CreateProductDto",
         "IsRequired": true
       }
     ],

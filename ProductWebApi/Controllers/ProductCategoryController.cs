@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProductWebApi.Dtos;
 using ProductWebApi.Models;
 using ProductWebApi.Repositories;
 
@@ -16,19 +17,17 @@ namespace ProductWebApi.Controllers
             _productCategoryRepository = productCategoryRepository;
             _productRepository = productRepository;
         }
-        // 1. Get all products
         [HttpGet("products")]
-        public IActionResult GetAllProducts()
+        public async Task<IActionResult> GetAllProducts()
         {
-            var products = _productRepository.GetAllProducts();
+            var products = await _productRepository.GetAllProducts();
             return Ok(products);
         }
 
-        // 2. Get product by Id
         [HttpGet("products/{id}")]
-        public IActionResult GetProductById(int id)
+        public async Task<IActionResult> GetProductById(int id)
         {
-            var product = _productRepository.GetProductById(id);
+            var product = await  _productRepository.GetProductById(id);
 
             if (product == null)
                 return NotFound();
@@ -36,27 +35,21 @@ namespace ProductWebApi.Controllers
             return Ok(product);
         }
 
-        // 3. Create product
         [HttpPost("products")]
-        public IActionResult CreateProduct(Product product)
+        public async Task<IActionResult> CreateProduct(CreateProductDto input)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            var id = _productRepository.AddProduct(product);
-
-            return Ok(id);
+            var result = await _productRepository.AddProduct(input);
+            return Ok(result);
         }
 
-        // 4. Update product
 
         [HttpPut("products/{id}")]
-        public IActionResult UpdateProduct(int id, Product product)
+        public async Task<IActionResult> UpdateProduct(int id, Product product)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var existing = _productRepository.GetProductById(id);
+            var existing = await _productRepository.GetProductById(id);
 
             if (existing == null)
                 return NotFound();
@@ -70,22 +63,17 @@ namespace ProductWebApi.Controllers
 
         // 5. Delete product
         [HttpDelete("products/{id}")]
-        public IActionResult DeleteProduct(int id)
+        public async Task<IActionResult> DeleteProduct(int id)
         {
-            var existing = _productRepository.GetProductById(id);
+            var isDeleted = await _productRepository.DeleteProduct(id);
 
-            if (existing == null)
+            if (!isDeleted)
                 return NotFound();
 
-            _productRepository.DeleteProduct(id);
-
-            return Ok("Product deleted successfully");
+            return NoContent();
         }
 
-
-
-
-        [HttpGet]
+         [HttpGet]
         public async Task<IActionResult> GetProdutategoryResult()
         {
             var data = await _productCategoryRepository.GetAllProductCategories();
@@ -116,12 +104,12 @@ namespace ProductWebApi.Controllers
             }
         }
         [HttpPut("{id}")]
-        public IActionResult UpdateCategoryProduct(int id, ProductCategory category)
+        public async Task<IActionResult> UpdateCategoryProduct(int id, ProductCategory category)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var existing =  _productCategoryRepository.GetProductCategoryById(id);
+            var existing =  await _productCategoryRepository.GetProductCategoryById(id);
 
             if (existing == null)
                 return NotFound();

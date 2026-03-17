@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProductWebApi.Data;
+using ProductWebApi.Dtos;
 using ProductWebApi.Models;
 
 namespace ProductWebApi.Repositories
@@ -22,11 +24,21 @@ namespace ProductWebApi.Repositories
             return await _produtWebApiDbContex.Products.FindAsync(id);
         }
 
-        public async Task<Product> AddProduct(Product product)
+        public async Task<Product> AddProduct(CreateProductDto input)
         {
-            _produtWebApiDbContex.Products.Add(product);
+           
+                var products = new Product
+                {
+                    Name = input.Name,
+                    Price = input.Price,
+                    ProductCategoryId = input.ProductCategoryId,
+                    DiscountInPct = input.DiscountInPct
+                };
+
+             
+            _produtWebApiDbContex.Products.Add(products);
             await _produtWebApiDbContex.SaveChangesAsync();
-            return product;
+            return products;
         }   
 
         public async Task<Product> UpdateProduct(Product product)
