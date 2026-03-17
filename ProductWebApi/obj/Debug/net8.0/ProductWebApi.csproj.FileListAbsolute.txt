@@ -145,3 +145,5 @@ E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensio
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\BCrypt.Net-Core.dll

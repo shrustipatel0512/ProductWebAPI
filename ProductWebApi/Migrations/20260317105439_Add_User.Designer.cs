@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProductWebApi.Data;
 
@@ -11,9 +12,11 @@ using ProductWebApi.Data;
 namespace ProductWebApi.Migrations
 {
     [DbContext(typeof(ProdutWebApiDbContex))]
-    partial class ProdutWebApiDbContexModelSnapshot : ModelSnapshot
+    [Migration("20260317105439_Add_User")]
+    partial class Add_User
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
