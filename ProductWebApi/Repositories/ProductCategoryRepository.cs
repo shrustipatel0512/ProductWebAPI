@@ -23,6 +23,11 @@ namespace ProductWebApi.Repositories
         }
         public async Task<ProductCategory> AddProductCategory(ProductCategory productCategory)
         {
+            var pro = _produtWebApiDbContex.ProductCategories.Where(x => x.Name == productCategory.Name).FirstOrDefaultAsync();
+            if(pro != null)
+            {
+                throw new Exception("Product category with the same name already exists.");
+            }
             _produtWebApiDbContex.ProductCategories.Add(productCategory);
             await _produtWebApiDbContex.SaveChangesAsync();
             return productCategory;
@@ -41,7 +46,7 @@ namespace ProductWebApi.Repositories
             {
                 return false;
             }
-            _produtWebApiDbContex.ProductCategories.Remove(productCategory);
+             _produtWebApiDbContex.ProductCategories.Remove(productCategory);
             await _produtWebApiDbContex.SaveChangesAsync();
             return true;
         }

@@ -138,3 +138,10 @@ E:\ProductWebAPI\ProductWebAPI\ProductWebApi\obj\Debug\net8.0\refint\ProductWebA
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\obj\Debug\net8.0\ProductWebApi.pdb
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\obj\Debug\net8.0\ProductWebApi.genruntimeconfig.cache
 E:\ProductWebAPI\ProductWebAPI\ProductWebApi\obj\Debug\net8.0\ref\ProductWebApi.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\ProductWebAPI\ProductWebAPI\ProductWebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
