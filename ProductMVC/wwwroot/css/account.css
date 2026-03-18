@@ -1,0 +1,21 @@
+﻿.account-container {
+    background-image: url('../css/images/aesthetic-nature-0zg6hu2rju10n5ae.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.account-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    opacity: 0.9;
+}
